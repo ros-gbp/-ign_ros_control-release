@@ -1,0 +1,10 @@
+ros-noetic-ign-ros-control (0.0.1-1focal) focal; urgency=high
+
+  * Default ignition version cmake should be the same as in package.xml
+  * Fix dependencies in package.xml files
+  * Set up ros_control for Ignition
+  * Contributors: Bence Magyar, Gennaro Raiola, Ryan Sinnet
+
+ -- graiola <gennaro.raiola@gmail.com>  Wed, 03 Aug 2022 23:00:00 -0000
+
+

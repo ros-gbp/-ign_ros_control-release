@@ -1,0 +1,12 @@
+Source: ros-noetic-ign-ros-control
+Section: misc
+Priority: optional
+Maintainer: graiola <gennaro.raiola@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libignition-gazebo3-dev, libignition-msgs5-dev, libignition-transport8-dev, python3-setuptools, ros-noetic-catkin (>= 0.5.78), ros-noetic-controller-manager, ros-noetic-hardware-interface, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-transmission-interface, ros-noetic-urdf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ign-ros-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libignition-gazebo3-dev, libignition-msgs5-dev, libignition-transport8-dev, ros-noetic-controller-manager, ros-noetic-hardware-interface, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-transmission-interface, ros-noetic-urdf
+Description: Ignition ros_control package allows to control simulated robots using ros_control framework.
