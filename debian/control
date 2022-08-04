@@ -1,0 +1,12 @@
+Source: ros-noetic-ign-ros-control-demos
+Section: misc
+Priority: optional
+Maintainer: graiola <gennaro.raiola@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-setuptools, ros-noetic-catkin (>= 0.5.78)
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ign-ros-control-demos
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-effort-controllers, ros-noetic-ign-ros-control, ros-noetic-joint-state-controller, ros-noetic-joint-state-publisher, ros-noetic-position-controllers, ros-noetic-ros-ign-gazebo, ros-noetic-velocity-controllers, ros-noetic-xacro
+Description: Ignition ros_control package demos.
